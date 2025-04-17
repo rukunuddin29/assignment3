@@ -1,8 +1,5 @@
-const typed = new Typed("#typed-text", {
-    strings: ["Connecting talented freelancers with opportunities that matter."],
-    typeSpeed: 40,
-    backSpeed: 0,
-    loop: false,
-    showCursor: false,
-  });
-  
+
+function toggleMenu() {
+  const nav = document.querySelector('.nav');
+  nav.classList.toggle('active'); // Toggle the display of the nav links
+}
